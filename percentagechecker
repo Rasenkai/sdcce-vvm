@@ -1,0 +1,2 @@
+read percentage from user and display the following
+perct>=80 then distiction ,between 60 to 80 first class,between 50 to 60 second class,between 40 to 50 pass class and below 40 fail
