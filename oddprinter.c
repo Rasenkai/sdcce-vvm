@@ -2,17 +2,19 @@
 
 int main()
 {
-    int i, n;
+    int i, n = 1, numbah;
 
-    printf("Print odd numbers till: ");
-    scanf("%d", &n);
+    printf("enter number: ");
+    scanf("%d", &i);
 
-    printf("Odd numbers from 1 to %d are: \n", n);
-
-    for(i=1; i<=n; i+=2)
-    {
-        printf("%d\n", i);
-    }
-
+    while(n <= i)
+   {
+     if(n%2 != 0)
+     {
+       numbah = numbah + n;
+     }
+    n++;
+}
+    printf("Sum of Odd number is %d\n", numbah);
     return 0;
 }
